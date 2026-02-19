@@ -260,7 +260,7 @@ const Appointment = () => {
         {/* Button */}
         <button
           onClick={bookAppointment}
-          className='bg-[#5f6FFF] hover:bg-[#4b57e0] transition-all text-white font-semibold text-lg px-10 py-3 rounded-full mt-8 shadow-md'
+          className='bg-[#5f6FFF] hover:bg-[#4b57e0] transition-all text-white font-semibold cursor-pointer text-lg px-10 py-3 rounded-full mt-8 shadow-md'
         >
           Book a Mentorship Session
         </button>
