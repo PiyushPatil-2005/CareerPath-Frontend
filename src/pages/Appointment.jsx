@@ -8,9 +8,6 @@ import axios from 'axios'
 
 const Appointment = () => {
 
-  
-  console.log("Backend URL:", import.meta.env.VITE_BACKEND_URL);
-
   const { mentorId } = useParams()
   const { mentors, currencySymbol, backendURL, token, getMentorsData } = useContext(AppContext)
   const daysOfWeek = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']
