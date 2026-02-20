@@ -83,6 +83,8 @@ const Appointment = () => {
 
 
   const bookAppointment = async () => {
+
+    console.log("BOOK APPOINTMENT FUNCTION CALLED");
     if (!token) {
       toast.warn('Login to book appointment')
       return navigate('/login')
@@ -115,6 +117,7 @@ const Appointment = () => {
       }
 
       const order = data.order
+      
 
       const options = {
         key: import.meta.env.VITE_RAZORPAY_KEY_ID,
